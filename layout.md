@@ -1,3 +1,4 @@
+```
 study_assistant/
 │
 ├── assistant/                      # Main application package
@@ -32,3 +33,4 @@ study_assistant/
 ├── layout.md                      # This file: project structure documentation
 ├── README.md                      # Project overview and usage instructions
 └── main.py                        # Main pipeline entry point
+```
