@@ -1,0 +1,61 @@
+# ---- Python ----
+**/__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+
+# ---- Virtual Environment ----
+venv/
+ENV/
+env/
+
+# ---- VS Code ----
+.vscode/
+
+# ---- Logs ----
+# Ignore all .log files across the project
+*.log         
+# Ignore timestamped OpenAI embedding log files                 
+**/embedding_log_*.txt           
+
+# ---- Log Folder (optional structured logging) ----
+# Ignore the entire logs folder
+logs/*                
+# Keep the empty logs folder in Git (tracked via .gitkeep)        
+!logs/.gitkeep                
+
+# ---- Pickle files ----
+*.pkl
+
+# ---- PDF Data ----
+# Ignore PDFs (keep folder)
+data/pdfs/*
+!data/pdfs/.gitkeep
+
+# ----- vextor_store data ----
+# Ignore FAISS index and metadata (keep folder)
+data/vector_store/*
+!data/vector_store/.gitkeep
+
+data/user_data/*
+!data/user_data/.gitkeep
+
+# ---- FAISS Index ----
+*.faiss
+
+# ---- Test cache ----
+.cache/
+.pytest_cache/
+__snapshots__/
+.mypy_cache
+
+# ---- Mac & Linux system files ----
+.DS_Store
+Thumbs.db
+
+# ---- Jupyter  ----
+.ipynb_checkpoints/
+
+# ---- dotenv files (if they contain API keys etc) ----
+.env
